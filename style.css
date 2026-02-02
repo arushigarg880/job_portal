@@ -29,7 +29,6 @@ hr {
     border: none;
 }
 
-/* Navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,7 +51,7 @@ nav {
     font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -72,7 +71,6 @@ nav {
 
 
 
-/* Form */
 form {
     padding: 30px;
      margin-top: 0; 
@@ -92,7 +90,7 @@ button {
     cursor: pointer;
 }
 
-/* Job Section */
+
 .jobs-container {
     display: flex;
     gap: 20px;
@@ -118,7 +116,7 @@ button {
     margin-top: 10px;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
