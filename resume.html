@@ -64,9 +64,10 @@
         <hr>
     </header>
     <main>
+        <form id="resume">
         <section>
             <h3>Personal Details</h3>
-            <form>
+            
                 <label for="name">Enter your name</label><br>
                 <input id="name" type="text" required><br><br>
                 <label for="email">Enter your email</label><br>
@@ -83,7 +84,7 @@
                     <option>Web Designer</option>
                     <option>UI/UX Designer</option>
                 </select>
-            </form>
+            
 <hr>
         </section>
         <section>
@@ -96,12 +97,7 @@
         <section>
             <h3>Skills</h3>
             <p>Add your key skills:</p>
-
-<input type="checkbox"> Web Development <br>
-<input type="checkbox"> Python <br>
-<input type="checkbox"> Data Analysis <br>
-<input type="checkbox"> Java <br>
-<input type="checkbox"> C++ <br>
+<input type="text" placeholder="add you skills" required>
 </section><hr>
 <section>
     <h3>Experience</h3>
@@ -123,7 +119,7 @@
   <option>Bachelor's Degree</option>
   <option>Master's Degree</option>
 </select>
-
+<br>
 <label> University Name</label>
 <input type="text" placeholder="Enter your college/university name">
 <br>
@@ -132,10 +128,14 @@
 
 </section>
 <section>
-   <button>UPLOAD RESUME</button>
-   <a href="home.html"><button>Back</button></a>
+ <button type="submit">UPLOAD RESUME</button>
+<button type="button" id="applyBtn">APPLY</button>
+<a href="home.html"><button type="button">Back</button></a>
+
     
 </section>
+</form>
     </main>
+    <script src="apply.js"></script>
 </body>
 </html>
