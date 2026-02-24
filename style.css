@@ -122,3 +122,31 @@ footer {
     padding: 20px;
     background-color: #ddd;
 }
+.simple-search {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.simple-search input {
+    width: 40%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.simple-search button {
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #2563EB;
+    color: white;
+    cursor: pointer;
+}
+
+.simple-search button:hover {
+    background-color: #1E40AF;
+}
